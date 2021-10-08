@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-08T06:51:35.554Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36 Edg/94.0.992.38" etag="1GIbwxRtFAjqpfKj_7Lr" version="15.4.3" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-10-08T06:54:14.895Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36 Edg/94.0.992.38" etag="rKxYVQsK2rLjiUSHmPIA" version="15.4.3" type="github" pages="3">
   <diagram id="mQKl8woR5209Q0s-4r6g" name="Page-1">
     <mxGraphModel dx="782" dy="468" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -139,6 +139,9 @@
         </mxCell>
         <mxCell id="4Ohwr1P_AUkBazJT-Sio-32" value="&lt;b&gt;OR&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="LdlfrUcyAFk2mC3OrIKB-1">
           <mxGeometry x="110" y="340" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4Ohwr1P_AUkBazJT-Sio-33" value="&lt;h1&gt;&lt;span style=&quot;font-weight: 400&quot;&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;Amazon S3 is cheaper than setting up document DB. it provide eventual consistency but is ok as we don&#39;t modify file content&lt;/font&gt;&lt;/span&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;align=left;" vertex="1" parent="LdlfrUcyAFk2mC3OrIKB-1">
+          <mxGeometry x="-140" y="350" width="250" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
