@@ -1,1 +1,24 @@
-<mxfile host="app.diagrams.net" modified="2021-10-08T05:11:39.925Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36 Edg/94.0.992.38" version="15.4.3" etag="fzBo3VKBnFxz-pVS1TVW" type="github"><diagram id="mQKl8woR5209Q0s-4r6g">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-10-08T05:29:25.000Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36 Edg/94.0.992.38" etag="k7PLtnJEHSHVXviQiKRl" version="15.4.3" type="github" pages="2">
+  <diagram id="mQKl8woR5209Q0s-4r6g" name="Page-1">
+    <mxGraphModel dx="782" dy="468" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="MibyOEhtghfiLwJuTsJ_-1" value="&lt;h1&gt;PasteBin Design&lt;/h1&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;Requirement:&lt;/p&gt;&lt;p&gt;1. store given text and return a URL for it&lt;/p&gt;&lt;p&gt;2. return the stored text/image when when the URL is accessed&lt;/p&gt;&lt;p&gt;3. link should expire, if expiration duration is provided by user&lt;/p&gt;&lt;p&gt;4. password protected? No&lt;/p&gt;&lt;p&gt;&lt;span&gt;5. What is the max size of each post ? 10MB&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;6. Need custom URL ? Yes&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;7. What is the max size of the custom URL : 20 char&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;Non-functional requirement:&lt;/p&gt;&lt;p&gt;1. Highly available to upload the data&lt;/p&gt;&lt;p&gt;2. Highly available to read data&lt;/p&gt;&lt;p&gt;3. Low-latency&amp;nbsp;&lt;/p&gt;&lt;p&gt;4. link id should not be guessable&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="19" y="44" width="712" height="612" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="E-shS5h3zmg0l0LU08MJ" name="Page-2">
+    <mxGraphModel dx="782" dy="468" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="qhK_gaoybNNiiJE-7L0O-0" />
+        <mxCell id="qhK_gaoybNNiiJE-7L0O-1" parent="qhK_gaoybNNiiJE-7L0O-0" />
+        <mxCell id="S6NC_K00Odwmeq3ZOr2M-0" value="&lt;h1&gt;Estimation&lt;/h1&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;1. size of the post&lt;br&gt;2. number posts per month :&amp;nbsp; &amp;nbsp;500 Million&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;br&gt;&lt;/div&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="qhK_gaoybNNiiJE-7L0O-1">
+          <mxGeometry x="21" y="32" width="683" height="422" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
