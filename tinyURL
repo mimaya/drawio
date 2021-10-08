@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2021-10-07T11:21:35.605Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36 Edg/94.0.992.38" etag="rfF9DIics77ik0AA9BnN" version="15.2.9" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-10-08T03:18:26.892Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36 Edg/94.0.992.38" etag="eqP8AnTmAhiPtd8yRXO1" version="15.4.3" type="github" pages="2">
   <diagram id="5Q6J5zKdYKVkxnTMV3wB" name="Page-1">
     <mxGraphModel dx="782" dy="468" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="y3dv5plojlBVpmJTJr4U-1" value="&lt;h1&gt;Tiny URL&lt;/h1&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Requirements:&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;1. take a long url and return unique short url&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;String getShortURL(String longURL)&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;2. request to short URL should forward to long URL&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;String getLongURL(String shortURL)&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;3. links should exprire after sometime&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Non functional Requirement&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;1. low latency when accessing short url&lt;/div&gt;&lt;div&gt;2. Highly available&lt;/div&gt;&lt;div&gt;3. short URL should not be guessable&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="20" y="40" width="620" height="330" as="geometry" />
+        <mxCell id="y3dv5plojlBVpmJTJr4U-1" value="&lt;h1&gt;TinyURL&lt;/h1&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;b&gt;Functional Requirements:&amp;nbsp;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;* Given long url , generate Unique short url and return&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;* given unique short URL redirect long URL&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;&lt;/div&gt;&lt;div&gt;Non-Fuctional requirements:&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;* System should be highly available.&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;* accessing short URL should redirect to long URL in nearly real-time&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;* should be as short as possible&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;* non-guessable&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;&lt;/div&gt;&lt;div&gt;Functional Api design&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;public String shortURL(String longURL)&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;public String longURL(String shortURL)&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Estimation:&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Traffic:&lt;/b&gt;&lt;/div&gt;&lt;div&gt;number of new Short URL created :&amp;nbsp; &amp;nbsp;500 Million, 500,000,000&lt;/div&gt;&lt;div&gt;each URL will be accessed on an avg: 100 time per month&lt;/div&gt;&lt;div&gt;Total redirect request will be : 100 * 500 M = 50 Billion&lt;/div&gt;&lt;div&gt;number of request&amp;nbsp; per sec&amp;nbsp; &amp;nbsp; &amp;nbsp;: 50,000,000,000/ 30*24*3600&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;: 19,290 req per sec&lt;/div&gt;&lt;div&gt;&lt;span&gt;							&lt;/span&gt;&amp;nbsp; &amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Storage:&lt;/b&gt;&lt;/div&gt;&lt;div&gt;1. need to store for 5 years&lt;/div&gt;&lt;div&gt;2. one year data&amp;nbsp; = 500 Million * 60 months * 500 bytes&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; = 13.6 TB space requied&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;span&gt;				&lt;/span&gt;&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;number of unique id required: 500Million * 60 months&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; : 30 Billion&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;span&gt;							&lt;/span&gt;: 30,000,000,000&lt;/div&gt;&lt;div&gt;&lt;span&gt;							&lt;/span&gt;: log2(30,000,000,000) = 35 bits&lt;/div&gt;&lt;div&gt;&lt;span&gt;							&lt;/span&gt;: 5 char&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;span&gt;				&lt;/span&gt;&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;- will have multiple instance of tiny URL services to handle 20,000 req/sec&amp;nbsp;&lt;/div&gt;&lt;div&gt;- use NOSQL as volume of data is high and shard it to different nodes.&lt;/div&gt;&lt;div&gt;- use Mongo DB as it is read intensive&lt;/div&gt;&lt;div&gt;-&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;				&lt;/span&gt;&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Datamodel&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;shardId&amp;nbsp; &amp;nbsp; VARCHAR(32),&lt;/div&gt;&lt;div&gt;shortURL VARCHAR(5),&amp;nbsp;&lt;/div&gt;&lt;div&gt;longURL VARCHAR(500),&lt;/div&gt;&lt;div&gt;created_on DATE&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="20" y="40" width="670" height="761" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -15,6 +15,52 @@
       <root>
         <mxCell id="e8Ciy5QFN1Y-FoBMN3Dj-0" />
         <mxCell id="e8Ciy5QFN1Y-FoBMN3Dj-1" parent="e8Ciy5QFN1Y-FoBMN3Dj-0" />
+        <mxCell id="eHU2hQLi3IoSR6DzejIQ-0" value="TinyURLService" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="e8Ciy5QFN1Y-FoBMN3Dj-1">
+          <mxGeometry x="222" y="148" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eHU2hQLi3IoSR6DzejIQ-1" value="TinyURLService" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="e8Ciy5QFN1Y-FoBMN3Dj-1">
+          <mxGeometry x="232" y="158" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eHU2hQLi3IoSR6DzejIQ-2" value="TinyURLService" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="e8Ciy5QFN1Y-FoBMN3Dj-1">
+          <mxGeometry x="242" y="168" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eHU2hQLi3IoSR6DzejIQ-3" value="TinyURLService" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="e8Ciy5QFN1Y-FoBMN3Dj-1">
+          <mxGeometry x="252" y="178" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eHU2hQLi3IoSR6DzejIQ-4" value="MongoDB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="e8Ciy5QFN1Y-FoBMN3Dj-1">
+          <mxGeometry x="539" y="88" width="60" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="eHU2hQLi3IoSR6DzejIQ-5" value="MongoDB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="e8Ciy5QFN1Y-FoBMN3Dj-1">
+          <mxGeometry x="540" y="169" width="60" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="eHU2hQLi3IoSR6DzejIQ-6" value="MongoDB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="e8Ciy5QFN1Y-FoBMN3Dj-1">
+          <mxGeometry x="541" y="259" width="60" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="eHU2hQLi3IoSR6DzejIQ-7" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="e8Ciy5QFN1Y-FoBMN3Dj-1" target="eHU2hQLi3IoSR6DzejIQ-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="375" y="213" as="sourcePoint" />
+            <mxPoint x="425" y="218" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eHU2hQLi3IoSR6DzejIQ-8" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;entryX=0;entryY=0;entryDx=0;entryDy=39.75;entryPerimeter=0;exitX=1.067;exitY=0.6;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="e8Ciy5QFN1Y-FoBMN3Dj-1" source="eHU2hQLi3IoSR6DzejIQ-3" target="eHU2hQLi3IoSR6DzejIQ-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="375" y="268" as="sourcePoint" />
+            <mxPoint x="425" y="218" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eHU2hQLi3IoSR6DzejIQ-16" value="Load balancer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="e8Ciy5QFN1Y-FoBMN3Dj-1">
+          <mxGeometry x="129" y="109" width="67" height="202" as="geometry" />
+        </mxCell>
+        <mxCell id="eHU2hQLi3IoSR6DzejIQ-17" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="e8Ciy5QFN1Y-FoBMN3Dj-1">
+          <mxGeometry x="45" y="180" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eHU2hQLi3IoSR6DzejIQ-20" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="e8Ciy5QFN1Y-FoBMN3Dj-1" source="eHU2hQLi3IoSR6DzejIQ-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="5" y="222" as="sourcePoint" />
+            <mxPoint x="128" y="222" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
