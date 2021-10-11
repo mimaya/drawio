@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-09T11:05:16.541Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36 Edg/94.0.992.38" etag="C7VYDWcwreD3lWoK7qy3" version="15.5.0" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-10-11T00:19:47.575Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36 Edg/94.0.992.38" etag="L6WJeBJi_83jFBWoOSx1" version="15.5.0" type="github" pages="3">
   <diagram id="e9iCubfBikLuMo1qs8sB" name="Page-1">
     <mxGraphModel dx="782" dy="468" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -179,19 +179,20 @@
         </mxCell>
         <mxCell id="-wkKA13EJj2CMWLyiJh8-10" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="-wkKA13EJj2CMWLyiJh8-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="210" y="179" as="sourcePoint" />
-            <mxPoint x="360" y="109" as="targetPoint" />
+            <mxPoint x="204" y="179" as="sourcePoint" />
+            <mxPoint x="362" y="109" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="210" y="109" />
+              <mxPoint x="204" y="179" />
+              <mxPoint x="204" y="109" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="-wkKA13EJj2CMWLyiJh8-12" value="1.Print photo req" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-wkKA13EJj2CMWLyiJh8-10">
+        <mxCell id="-wkKA13EJj2CMWLyiJh8-12" value="1. Print Photos" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-wkKA13EJj2CMWLyiJh8-10">
           <mxGeometry x="0.0788" y="-3" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="-2" y="-17" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-wkKA13EJj2CMWLyiJh8-11" value="exchange Access token for &lt;br&gt;my auth token" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="-wkKA13EJj2CMWLyiJh8-1" source="-wkKA13EJj2CMWLyiJh8-4" target="-wkKA13EJj2CMWLyiJh8-6">
+        <mxCell id="-wkKA13EJj2CMWLyiJh8-11" value="8. exchange&amp;nbsp;AuthToken&lt;br&gt;with AccessToken" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="-wkKA13EJj2CMWLyiJh8-1" source="-wkKA13EJj2CMWLyiJh8-4" target="-wkKA13EJj2CMWLyiJh8-6">
           <mxGeometry x="-0.1209" y="20" width="50" height="50" relative="1" as="geometry">
             <mxPoint x="380" y="250" as="sourcePoint" />
             <mxPoint x="720" y="150" as="targetPoint" />
@@ -201,25 +202,32 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-wkKA13EJj2CMWLyiJh8-14" value="Authorization Request" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=1.061;exitY=0.092;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="-wkKA13EJj2CMWLyiJh8-1" source="-wkKA13EJj2CMWLyiJh8-3">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="380" y="220" as="sourcePoint" />
-            <mxPoint x="600" y="199" as="targetPoint" />
+        <mxCell id="-wkKA13EJj2CMWLyiJh8-14" value="3. Authorization Request" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;entryX=0.004;entryY=0.117;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="-wkKA13EJj2CMWLyiJh8-1" target="-wkKA13EJj2CMWLyiJh8-6">
+          <mxGeometry x="0.0973" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="283" y="189" as="sourcePoint" />
+            <mxPoint x="600" y="197" as="targetPoint" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-wkKA13EJj2CMWLyiJh8-15" value="Login page" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="-wkKA13EJj2CMWLyiJh8-1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
+        <mxCell id="-wkKA13EJj2CMWLyiJh8-15" value="4. Consent screen with list of scopes" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="-wkKA13EJj2CMWLyiJh8-1">
+          <mxGeometry x="-0.2437" width="50" height="50" relative="1" as="geometry">
             <mxPoint x="600" y="220" as="sourcePoint" />
             <mxPoint x="280" y="220" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="453" y="220" />
+              <mxPoint x="453" y="220" />
+            </Array>
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-wkKA13EJj2CMWLyiJh8-16" value="Submit&amp;nbsp;" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="-wkKA13EJj2CMWLyiJh8-1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
+        <mxCell id="-wkKA13EJj2CMWLyiJh8-16" value="5. Allow" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="-wkKA13EJj2CMWLyiJh8-1">
+          <mxGeometry x="-0.175" width="50" height="50" relative="1" as="geometry">
             <mxPoint x="280" y="241" as="sourcePoint" />
             <mxPoint x="600" y="241" as="targetPoint" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-wkKA13EJj2CMWLyiJh8-17" value="Authtoken&amp;nbsp;&lt;br&gt;with&amp;nbsp;&lt;br&gt;Redirect request" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="-wkKA13EJj2CMWLyiJh8-1">
+        <mxCell id="-wkKA13EJj2CMWLyiJh8-17" value="6. AuthToken" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="-wkKA13EJj2CMWLyiJh8-1">
           <mxGeometry x="0.0188" y="6" width="50" height="50" relative="1" as="geometry">
             <mxPoint x="603" y="268" as="sourcePoint" />
             <mxPoint x="280" y="290" as="targetPoint" />
@@ -232,12 +240,12 @@
             <mxPoint x="370" y="150" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-wkKA13EJj2CMWLyiJh8-19" value="auth token" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-wkKA13EJj2CMWLyiJh8-18">
+        <mxCell id="-wkKA13EJj2CMWLyiJh8-19" value="7. redirect with authtoken" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-wkKA13EJj2CMWLyiJh8-18">
           <mxGeometry x="0.7855" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-wkKA13EJj2CMWLyiJh8-20" value="Access&lt;br&gt;token" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="-wkKA13EJj2CMWLyiJh8-1" source="-wkKA13EJj2CMWLyiJh8-6" target="-wkKA13EJj2CMWLyiJh8-4">
+        <mxCell id="-wkKA13EJj2CMWLyiJh8-20" value="9. Access&lt;br&gt;token" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="-wkKA13EJj2CMWLyiJh8-1" source="-wkKA13EJj2CMWLyiJh8-6" target="-wkKA13EJj2CMWLyiJh8-4">
           <mxGeometry x="0.1903" y="15" width="50" height="50" relative="1" as="geometry">
             <mxPoint x="380" y="220" as="sourcePoint" />
             <mxPoint x="580" y="120" as="targetPoint" />
@@ -279,10 +287,13 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="-wkKA13EJj2CMWLyiJh8-26" value="Authorize with &lt;br&gt;Google (link)&lt;br&gt;to read your photo" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-wkKA13EJj2CMWLyiJh8-25">
+        <mxCell id="-wkKA13EJj2CMWLyiJh8-26" value="Authorize with &lt;br&gt;Google (link)&lt;br&gt;to read your photo&lt;br&gt;from GoogleDrive" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-wkKA13EJj2CMWLyiJh8-25">
           <mxGeometry x="-0.386" y="3" relative="1" as="geometry">
-            <mxPoint x="-7" y="22" as="offset" />
+            <mxPoint x="-18" y="12" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="Ud745kjNwFh3iDfJmsi8-4" value="&lt;pre style=&quot;margin-top: 0px ; padding: 12px ; border: 0px ; font-stretch: inherit ; line-height: 1.30769 ; vertical-align: baseline ; box-sizing: inherit ; width: auto ; max-height: 600px ; overflow: auto ; border-radius: 5px ; overflow-wrap: normal&quot;&gt;&lt;code style=&quot;margin: 0px ; padding: 0px ; border: 0px ; font-style: inherit ; font-variant: inherit ; font-weight: inherit ; font-stretch: inherit ; line-height: inherit ; vertical-align: baseline ; box-sizing: inherit ; background-color: transparent ; border-radius: 0px&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;3. Authorization request will be as below&lt;/font&gt;&lt;/code&gt;&lt;/pre&gt;&lt;pre style=&quot;margin-top: 0px ; padding: 12px ; border: 0px ; font-stretch: inherit ; line-height: 1.30769 ; vertical-align: baseline ; box-sizing: inherit ; width: auto ; max-height: 600px ; overflow: auto ; border-radius: 5px ; overflow-wrap: normal&quot;&gt;&lt;code style=&quot;margin: 0px ; padding: 0px ; border: 0px ; font-style: inherit ; font-variant: inherit ; font-weight: inherit ; font-stretch: inherit ; line-height: inherit ; vertical-align: baseline ; box-sizing: inherit ; background-color: transparent ; border-radius: 0px&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;https://accounts.google.com/o/oauth2/auth?&lt;br&gt;  client_id=21302922996.apps.googleusercontent.com&amp;amp;&lt;br&gt;  redirect_uri=https://www.photoprint.com/back&amp;amp;&lt;br&gt;  scope=https://www.google.com/m8/feeds/&amp;amp;&lt;br&gt;  response_type=token&amp;amp;&lt;br&gt;  state=asdafwswdwefwsdg,&lt;/font&gt;&lt;/code&gt;&lt;/pre&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="-wkKA13EJj2CMWLyiJh8-1">
+          <mxGeometry x="95" y="330" width="371" height="183" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
