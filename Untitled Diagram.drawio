@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-16T17:42:45.641Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36 Edg/95.0.1020.44" etag="Zteg98SOo3h6STpKNjBD" version="15.7.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-16T17:43:06.024Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36 Edg/95.0.1020.44" etag="egF5ehK3OSiNa7k1xN95" version="15.7.3" type="github">
   <diagram id="s8QHwOiczxXdtoyHTXb_" name="Page-1">
     <mxGraphModel dx="782" dy="468" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -43,18 +43,6 @@
         <mxCell id="ah3FceEl2E3HXuILpOoP-16" value="http://apigateway/reloadroutes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="80" y="210" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ah3FceEl2E3HXuILpOoP-17" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ah3FceEl2E3HXuILpOoP-2" target="ah3FceEl2E3HXuILpOoP-16">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="160" y="340" as="sourcePoint" />
-            <mxPoint x="210" y="290" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ah3FceEl2E3HXuILpOoP-23" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="ah3FceEl2E3HXuILpOoP-4" target="ah3FceEl2E3HXuILpOoP-16">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="20" y="440" as="sourcePoint" />
-            <mxPoint x="70" y="390" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="ah3FceEl2E3HXuILpOoP-24" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.145;exitY=0;exitDx=0;exitDy=4.35;exitPerimeter=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="ah3FceEl2E3HXuILpOoP-3" target="ah3FceEl2E3HXuILpOoP-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="390" y="290" as="sourcePoint" />
@@ -63,9 +51,6 @@
         </mxCell>
         <mxCell id="ah3FceEl2E3HXuILpOoP-26" value="Option-2&lt;br&gt;DBChangeNotification" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="250" y="165" width="130" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="ah3FceEl2E3HXuILpOoP-27" value="Option-1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="120" y="250" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
