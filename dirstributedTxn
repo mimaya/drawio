@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-16T02:59:05.556Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36 Edg/95.0.1020.44" etag="Wq9qDeQr-uJKckv9llkT" version="15.7.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-16T03:08:54.763Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36 Edg/95.0.1020.44" etag="R9c4vf2vQITMgxw1C5Ah" version="15.7.3" type="github">
   <diagram id="TEPN_1qs1aDhu8Ey3zBB" name="Page-1">
     <mxGraphModel dx="782" dy="468" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -69,6 +69,9 @@
         </mxCell>
         <mxCell id="PXrzDYT4luxTAC1Zdmnt-15" value="Txn Coordinator" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="130" y="170" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PXrzDYT4luxTAC1Zdmnt-20" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;1. If services other than txn co-ordinator fails then txn&amp;nbsp; co-ordinator will rollback txn&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;2. If txn co-ordinator fails then records will be locked for ever, need to find out way to release the records&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;3.&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="400" width="560" height="160" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
