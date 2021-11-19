@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-19T09:12:54.482Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36 Edg/95.0.1020.53" etag="dTG5stR4KxcrIwLPJr-K" version="15.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-19T10:16:05.893Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36 Edg/95.0.1020.53" etag="hbPAa9K7Jfdt_qwjF-ve" version="15.7.4" type="github" pages="2">
   <diagram id="EVRv7UauHuJtFhyrfsss" name="Page-1">
     <mxGraphModel dx="782" dy="468" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -57,6 +57,26 @@
             <mxPoint x="400" y="130" as="sourcePoint" />
             <mxPoint x="480" y="270" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="y9R9k4Lx5OH9_sFazBPz" name="Page-2">
+    <mxGraphModel dx="782" dy="468" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="N4nCmRsKwNN1afF-3CNP-0" />
+        <mxCell id="N4nCmRsKwNN1afF-3CNP-1" parent="N4nCmRsKwNN1afF-3CNP-0" />
+        <mxCell id="N4nCmRsKwNN1afF-3CNP-2" value="api gateway" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="N4nCmRsKwNN1afF-3CNP-1">
+          <mxGeometry x="290" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="N4nCmRsKwNN1afF-3CNP-3" value="fmw server" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="N4nCmRsKwNN1afF-3CNP-1">
+          <mxGeometry x="80" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="N4nCmRsKwNN1afF-3CNP-4" value="ZDT JEE" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="N4nCmRsKwNN1afF-3CNP-1">
+          <mxGeometry x="410" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="N4nCmRsKwNN1afF-3CNP-5" value="non-ZDT JEE" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="N4nCmRsKwNN1afF-3CNP-1">
+          <mxGeometry x="250" y="240" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
