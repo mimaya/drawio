@@ -1,0 +1,79 @@
+<mxfile host="app.diagrams.net" modified="2021-11-16T17:52:35.564Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36 Edg/95.0.1020.44" etag="MRzQvbinGyNHPKgLn4hv" version="15.7.3" type="github">
+  <diagram id="TEPN_1qs1aDhu8Ey3zBB" name="Page-1">
+    <mxGraphModel dx="782" dy="468" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="PXrzDYT4luxTAC1Zdmnt-1" value="Service A" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PXrzDYT4luxTAC1Zdmnt-2" value="Service B" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PXrzDYT4luxTAC1Zdmnt-3" value="Service C" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PXrzDYT4luxTAC1Zdmnt-4" value="EMRep" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="340" y="310" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PXrzDYT4luxTAC1Zdmnt-5" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.561;exitY=1.044;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="PXrzDYT4luxTAC1Zdmnt-1" target="PXrzDYT4luxTAC1Zdmnt-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="270" as="sourcePoint" />
+            <mxPoint x="430" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PXrzDYT4luxTAC1Zdmnt-6" value="BeginTxn" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="180" y="230" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PXrzDYT4luxTAC1Zdmnt-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="118" as="sourcePoint" />
+            <mxPoint x="330" y="118" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PXrzDYT4luxTAC1Zdmnt-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="PXrzDYT4luxTAC1Zdmnt-2" target="PXrzDYT4luxTAC1Zdmnt-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="270" as="sourcePoint" />
+            <mxPoint x="430" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PXrzDYT4luxTAC1Zdmnt-9" value="Proxy Con" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="260" y="150" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PXrzDYT4luxTAC1Zdmnt-10" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=15;entryPerimeter=0;" edge="1" parent="1" source="PXrzDYT4luxTAC1Zdmnt-1" target="PXrzDYT4luxTAC1Zdmnt-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="270" as="sourcePoint" />
+            <mxPoint x="430" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PXrzDYT4luxTAC1Zdmnt-11" value="Commit/Rollback" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="230" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PXrzDYT4luxTAC1Zdmnt-12" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="450" y="122" as="sourcePoint" />
+            <mxPoint x="520" y="122" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PXrzDYT4luxTAC1Zdmnt-13" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="PXrzDYT4luxTAC1Zdmnt-3" target="PXrzDYT4luxTAC1Zdmnt-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="270" as="sourcePoint" />
+            <mxPoint x="430" y="220" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="320" y="220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PXrzDYT4luxTAC1Zdmnt-14" value="Proxy Con" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="380" y="200" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PXrzDYT4luxTAC1Zdmnt-15" value="Txn Coordinator" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="170" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PXrzDYT4luxTAC1Zdmnt-22" value="&lt;pre&gt;&lt;b&gt;To be Reviewed:&lt;/b&gt;&lt;/pre&gt;&lt;pre&gt;&lt;br&gt;- Service to service communication has to synchronous, only rest&lt;br&gt;&lt;br&gt;- Service to service call and proxy con call should be synchronous ? &lt;br&gt;(to be reviewed)&lt;br&gt;&lt;br&gt;- If services other than txn co-ordinator fails then txn  co-ordinator will &lt;br&gt;rollback txn &lt;br&gt;&lt;br&gt;- If txn co-ordinator fails then records will be locked for ever, need to &lt;br&gt;find out way to release the records&lt;br&gt;&lt;/pre&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=13;align=left;" vertex="1" parent="1">
+          <mxGeometry x="100" y="440" width="560" height="210" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
