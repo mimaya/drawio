@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-20T02:47:36.568Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36 Edg/95.0.1020.53" etag="d01-CUSVpa9nR1CV20uq" version="15.7.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-11-20T02:53:16.916Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36 Edg/95.0.1020.53" etag="WzjzvBuecp2UJ1-TGmbH" version="15.7.4" type="github" pages="3">
   <diagram id="EVRv7UauHuJtFhyrfsss" name="Page-1">
     <mxGraphModel dx="782" dy="468" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -145,7 +145,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="y9R9k4Lx5OH9_sFazBPz" name="Page-2">
+  <diagram id="y9R9k4Lx5OH9_sFazBPz" name="ReverseProxy">
     <mxGraphModel dx="782" dy="468" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="N4nCmRsKwNN1afF-3CNP-0" />
@@ -245,6 +245,23 @@
         </mxCell>
         <mxCell id="nnL2b2JPrznzbNAMRs3V-26" value="&lt;h1&gt;&lt;span&gt;API gateway - only reverse proxy&lt;/span&gt;&lt;br&gt;&lt;/h1&gt;&lt;div&gt;&lt;span&gt;- Changes to service internal may cause changes in api gateway need to be simple&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;- No Aggregation of data at Gateway&lt;/span&gt;&lt;/div&gt;&lt;div&gt;- API gateway functionality&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;- reverse proxying / routing&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;- ssl offloading&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; - authentication&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;- tracing and logging&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="N4nCmRsKwNN1afF-3CNP-1">
           <mxGeometry x="60" y="10" width="610" height="150" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="1R1m8g99OdmjbiEHtQ6F" name="RouteUpdates">
+    <mxGraphModel dx="782" dy="468" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="3w6M6-NWVLKkrIHzzwnl-0" />
+        <mxCell id="3w6M6-NWVLKkrIHzzwnl-1" parent="3w6M6-NWVLKkrIHzzwnl-0" />
+        <mxCell id="0_q_qq3FV2ZShHeUsOrK-0" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="3w6M6-NWVLKkrIHzzwnl-1">
+          <mxGeometry x="340" y="320" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0_q_qq3FV2ZShHeUsOrK-1" value="Gateway" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="3w6M6-NWVLKkrIHzzwnl-1">
+          <mxGeometry x="305" y="130" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0_q_qq3FV2ZShHeUsOrK-2" value="Routing/filtering table" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="3w6M6-NWVLKkrIHzzwnl-1">
+          <mxGeometry x="245" y="350" width="95" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
