@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-20T01:40:30.116Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36 Edg/95.0.1020.53" etag="bJUZ2ob-AWYarOh4P6sb" version="15.7.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-11-20T01:43:26.159Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36 Edg/95.0.1020.53" etag="HRUnXy7cdmVN_RfC-BBl" version="15.7.4" type="github" pages="2">
   <diagram id="EVRv7UauHuJtFhyrfsss" name="Page-1">
     <mxGraphModel dx="782" dy="468" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -155,6 +155,12 @@
             <mxPoint x="380" y="200" as="sourcePoint" />
             <mxPoint x="430" y="150" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="nnL2b2JPrznzbNAMRs3V-25" value="Compose response" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;" vertex="1" parent="N4nCmRsKwNN1afF-3CNP-1">
+          <mxGeometry x="590" y="175" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="nnL2b2JPrznzbNAMRs3V-26" value="&lt;h1&gt;&lt;span&gt;API gateway - only reverse proxy&lt;/span&gt;&lt;br&gt;&lt;/h1&gt;&lt;div&gt;&lt;span&gt;No Aggregation of data&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="N4nCmRsKwNN1afF-3CNP-1">
+          <mxGeometry x="60" y="10" width="320" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
