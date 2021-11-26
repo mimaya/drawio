@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-25T12:51:54.114Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.34" etag="miLRNu3E-0c4v6RyMCtM" version="15.8.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-11-26T00:43:00.702Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.34" etag="fe6JSU6BhX6tKSStby-D" version="15.8.6" type="github" pages="2">
   <diagram id="qG3ffaEBk8Su9tTIKuqT" name="Page-1">
     <mxGraphModel dx="782" dy="468" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -7,8 +7,8 @@
         <mxCell id="vcIWsgOlu_k5uRNPS1oM-1" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=hexagon;perimeter=hexagonPerimeter2;arcSize=6;size=0.27;" parent="1" vertex="1">
           <mxGeometry x="230" y="130" width="320" height="230" as="geometry" />
         </mxCell>
-        <mxCell id="5KMINUWj6H3mscFiQFwT-1" value="AgentPoolService" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="330" y="240" width="120" height="30" as="geometry" />
+        <mxCell id="5KMINUWj6H3mscFiQFwT-1" value="AgentPool Domain&lt;br&gt;&lt;br&gt;AgentPool Service Impl" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="330" y="200" width="120" height="70" as="geometry" />
         </mxCell>
         <mxCell id="5KMINUWj6H3mscFiQFwT-2" value="Ignite" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="334" y="48" width="110" height="60" as="geometry" />
