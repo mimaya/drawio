@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-01T17:37:01.035Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.34" etag="hmP5iGDrdF-oeXfOBZbj" version="15.8.6" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2021-12-01T17:38:48.621Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.34" etag="rKCynlKsYtvsaYTp2FTG" version="15.8.6" type="github" pages="4">
   <diagram id="EVRv7UauHuJtFhyrfsss" name="Page-1">
     <mxGraphModel dx="782" dy="468" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -245,80 +245,6 @@
         </mxCell>
         <mxCell id="nnL2b2JPrznzbNAMRs3V-26" value="&lt;h1&gt;&lt;span&gt;API gateway - only reverse proxy&lt;/span&gt;&lt;br&gt;&lt;/h1&gt;&lt;div&gt;&lt;span&gt;- Changes to service internal may cause changes in api gateway need to be simple&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;- No Aggregation of data at Gateway&lt;/span&gt;&lt;/div&gt;&lt;div&gt;- API gateway functionality&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;- reverse proxying / routing&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;- ssl offloading&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; - authentication&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;- tracing and logging&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="N4nCmRsKwNN1afF-3CNP-1" vertex="1">
           <mxGeometry x="60" y="10" width="610" height="150" as="geometry" />
-        </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram id="1R1m8g99OdmjbiEHtQ6F" name="RouteUpdates">
-    <mxGraphModel dx="782" dy="468" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
-      <root>
-        <mxCell id="3w6M6-NWVLKkrIHzzwnl-0" />
-        <mxCell id="3w6M6-NWVLKkrIHzzwnl-1" parent="3w6M6-NWVLKkrIHzzwnl-0" />
-        <mxCell id="0_q_qq3FV2ZShHeUsOrK-0" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="3w6M6-NWVLKkrIHzzwnl-1" vertex="1">
-          <mxGeometry x="340" y="320" width="60" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="0_q_qq3FV2ZShHeUsOrK-1" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="3w6M6-NWVLKkrIHzzwnl-1" vertex="1">
-          <mxGeometry x="200" y="40" width="270" height="130" as="geometry" />
-        </mxCell>
-        <mxCell id="0_q_qq3FV2ZShHeUsOrK-2" value="Routing/filtering table" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="3w6M6-NWVLKkrIHzzwnl-1" vertex="1">
-          <mxGeometry x="245" y="350" width="95" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="r96cVw0Ch7bOvd5aUfJW-1" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" parent="3w6M6-NWVLKkrIHzzwnl-1" target="r96cVw0Ch7bOvd5aUfJW-3" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="375" y="330" as="sourcePoint" />
-            <mxPoint x="430" y="220" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="r96cVw0Ch7bOvd5aUfJW-3" value="RouteManagemtController" style="rounded=1;whiteSpace=wrap;html=1;" parent="3w6M6-NWVLKkrIHzzwnl-1" vertex="1">
-          <mxGeometry x="290" y="120" width="170" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="r96cVw0Ch7bOvd5aUfJW-4" value="ReverseProxy" style="rounded=1;whiteSpace=wrap;html=1;" parent="3w6M6-NWVLKkrIHzzwnl-1" vertex="1">
-          <mxGeometry x="305" y="50" width="155" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="r96cVw0Ch7bOvd5aUfJW-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.454;entryY=1.1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="3w6M6-NWVLKkrIHzzwnl-1" source="r96cVw0Ch7bOvd5aUfJW-3" target="r96cVw0Ch7bOvd5aUfJW-4" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="380" y="270" as="sourcePoint" />
-            <mxPoint x="430" y="220" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="r96cVw0Ch7bOvd5aUfJW-8" value="Client" style="rounded=1;whiteSpace=wrap;html=1;" parent="3w6M6-NWVLKkrIHzzwnl-1" vertex="1">
-          <mxGeometry x="20" y="40" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="r96cVw0Ch7bOvd5aUfJW-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="3w6M6-NWVLKkrIHzzwnl-1" source="r96cVw0Ch7bOvd5aUfJW-8" target="r96cVw0Ch7bOvd5aUfJW-4" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="380" y="270" as="sourcePoint" />
-            <mxPoint x="430" y="220" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="r96cVw0Ch7bOvd5aUfJW-10" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="3w6M6-NWVLKkrIHzzwnl-1" source="r96cVw0Ch7bOvd5aUfJW-4" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="380" y="270" as="sourcePoint" />
-            <mxPoint x="550" y="70" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="r96cVw0Ch7bOvd5aUfJW-11" value="Service-1" style="rounded=1;whiteSpace=wrap;html=1;" parent="3w6M6-NWVLKkrIHzzwnl-1" vertex="1">
-          <mxGeometry x="550" y="40" width="90" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="r96cVw0Ch7bOvd5aUfJW-12" value="Service-1" style="rounded=1;whiteSpace=wrap;html=1;" parent="3w6M6-NWVLKkrIHzzwnl-1" vertex="1">
-          <mxGeometry x="560" y="50" width="90" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="r96cVw0Ch7bOvd5aUfJW-13" value="Service-1" style="rounded=1;whiteSpace=wrap;html=1;" parent="3w6M6-NWVLKkrIHzzwnl-1" vertex="1">
-          <mxGeometry x="570" y="60" width="90" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="r96cVw0Ch7bOvd5aUfJW-14" value="MgmtClient" style="rounded=1;whiteSpace=wrap;html=1;" parent="3w6M6-NWVLKkrIHzzwnl-1" vertex="1">
-          <mxGeometry x="20" y="110" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="r96cVw0Ch7bOvd5aUfJW-15" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="3w6M6-NWVLKkrIHzzwnl-1" target="r96cVw0Ch7bOvd5aUfJW-3" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="140" y="140" as="sourcePoint" />
-            <mxPoint x="430" y="220" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="r96cVw0Ch7bOvd5aUfJW-17" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.855;exitY=0;exitDx=0;exitDy=4.35;exitPerimeter=0;entryX=0.583;entryY=0.967;entryDx=0;entryDy=0;entryPerimeter=0;" parent="3w6M6-NWVLKkrIHzzwnl-1" source="0_q_qq3FV2ZShHeUsOrK-0" target="r96cVw0Ch7bOvd5aUfJW-4" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="380" y="270" as="sourcePoint" />
-            <mxPoint x="430" y="220" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
