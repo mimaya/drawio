@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-10T11:26:48.438Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43" etag="anqMz3jT84rrqMHkZBYv" version="15.9.4" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-12-10T11:30:35.102Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43" etag="5SPA35Bztz9G9S9I_S98" version="15.9.4" type="github" pages="3">
   <diagram id="qG3ffaEBk8Su9tTIKuqT" name="Page-1">
     <mxGraphModel dx="782" dy="468" grid="0" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -10,7 +10,7 @@
         <mxCell id="5KMINUWj6H3mscFiQFwT-1" value="AgentPool Domain&lt;br&gt;&lt;br&gt;AgentPool Service Impl" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="330" y="200" width="120" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="5KMINUWj6H3mscFiQFwT-2" value="Ignite" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="5KMINUWj6H3mscFiQFwT-2" value="IgniteNodeManager" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="334" y="48" width="110" height="60" as="geometry" />
         </mxCell>
         <mxCell id="5KMINUWj6H3mscFiQFwT-3" value="EM" style="rounded=1;whiteSpace=wrap;html=1;rotation=-55;" parent="1" vertex="1">
@@ -101,7 +101,7 @@
         <mxCell id="FIBFEx3mp-NZGg6RNY9T-16" value="OMS" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="FIBFEx3mp-NZGg6RNY9T-1">
           <mxGeometry x="422" y="161" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="FIBFEx3mp-NZGg6RNY9T-17" value="pool1:AgentPool" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="FIBFEx3mp-NZGg6RNY9T-1">
+        <mxCell id="FIBFEx3mp-NZGg6RNY9T-17" value="pool1:agent_pool" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="FIBFEx3mp-NZGg6RNY9T-1">
           <mxGeometry x="294" y="105" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FIBFEx3mp-NZGg6RNY9T-22" value="&lt;span&gt;Multi agent Target&lt;br&gt;&lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp;Type:&amp;nbsp;&lt;/span&gt;&lt;b&gt;agent_pool&lt;/b&gt;&lt;/div&gt;&lt;/span&gt;&lt;span&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp;Target Name:&amp;nbsp;&lt;/span&gt;&lt;b&gt;pool1&lt;/b&gt;&lt;/div&gt;&lt;/span&gt;&lt;span&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp;TargetProperties:&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;&lt;span&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;- ClusterMembers&lt;/b&gt;&lt;span&gt;: agent1,&amp;lt;clusterInfo&amp;gt;##agent2,&amp;lt;clusterInfo&amp;gt;&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;&lt;span&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;- PrimaryAgent&lt;/b&gt;&lt;span&gt;: agent1&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;" style="shape=card;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="FIBFEx3mp-NZGg6RNY9T-1">
