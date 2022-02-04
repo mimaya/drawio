@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-04T11:15:07.906Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36 Edg/97.0.1072.69" etag="F_pURiVW34ef2W6Ho4Rv" version="16.4.5" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-02-04T11:27:13.971Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36 Edg/97.0.1072.69" etag="tFymtzdDVtSal9UcghLQ" version="16.4.5" type="github" pages="5">
   <diagram id="pQE7_saC5eoKNUFTM6b2" name="Todays model">
     <mxGraphModel dx="782" dy="436" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -74,7 +74,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZCtqN2n8Zks3z3LWbNfu-16" value="Response + jsessionid cookie&lt;br&gt;Token cookie" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="1">
+        <mxCell id="ZCtqN2n8Zks3z3LWbNfu-16" value="Response + jsessionid cookie&lt;br&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="1">
           <mxGeometry x="-0.0647" y="22" relative="1" as="geometry">
             <mxPoint x="279.5" y="228" as="sourcePoint" />
             <mxPoint x="109.5" y="228" as="targetPoint" />
