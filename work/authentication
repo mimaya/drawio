@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-04T11:27:13.971Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36 Edg/97.0.1072.69" etag="tFymtzdDVtSal9UcghLQ" version="16.4.5" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-02-04T11:36:40.890Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36 Edg/97.0.1072.69" etag="JUsc4If_GLyDbXe7VO0X" version="16.4.5" type="github" pages="5">
   <diagram id="pQE7_saC5eoKNUFTM6b2" name="Todays model">
     <mxGraphModel dx="782" dy="436" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -373,15 +373,25 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="giuH5WdTAiRwE1ZsmApR-22" value="/rest1 + token cookie" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="9yNhTz4UNfEh5AnDkIOu-1">
+        <mxCell id="giuH5WdTAiRwE1ZsmApR-22" value="/rest1 + token cookie" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;startArrow=none;" edge="1" parent="9yNhTz4UNfEh5AnDkIOu-1" source="giuH5WdTAiRwE1ZsmApR-6">
           <mxGeometry x="-0.0232" width="80" relative="1" as="geometry">
-            <mxPoint x="110" y="263" as="sourcePoint" />
-            <mxPoint x="519.5" y="263" as="targetPoint" />
+            <mxPoint x="115" y="267" as="sourcePoint" />
+            <mxPoint x="519.5" y="270" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="j_UzQNWLEytZFG7bvKzn-1" value="JET UI" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="9yNhTz4UNfEh5AnDkIOu-1">
           <mxGeometry x="20" y="110" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="qDiqTMYRs9zlbRtVNPn6-0" value="Set the token in cookie" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="9yNhTz4UNfEh5AnDkIOu-1">
+          <mxGeometry x="105" y="240" width="10" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="qDiqTMYRs9zlbRtVNPn6-1" value="" style="html=1;verticalAlign=bottom;endArrow=none;rounded=0;" edge="1" parent="9yNhTz4UNfEh5AnDkIOu-1" target="qDiqTMYRs9zlbRtVNPn6-0">
+          <mxGeometry x="-0.0232" width="80" relative="1" as="geometry">
+            <mxPoint x="110" y="263" as="sourcePoint" />
+            <mxPoint x="519.5" y="263" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
