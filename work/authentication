@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-04T10:35:04.427Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36 Edg/97.0.1072.69" etag="2dy_y5f5quStnSkPHSJS" version="16.4.5" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-02-04T10:36:17.341Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36 Edg/97.0.1072.69" etag="n2OQaaA8EiVQ3PDqlRNy" version="16.4.5" type="github" pages="5">
   <diagram id="pQE7_saC5eoKNUFTM6b2" name="Todays model">
     <mxGraphModel dx="782" dy="436" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -426,18 +426,6 @@
       <root>
         <mxCell id="ohbj50onRq6ZeHfKae8X-0" />
         <mxCell id="ohbj50onRq6ZeHfKae8X-1" parent="ohbj50onRq6ZeHfKae8X-0" />
-        <mxCell id="ohbj50onRq6ZeHfKae8X-2" value="Validate jsessionid,&lt;br&gt;get and Set security context &lt;br&gt;from session" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" parent="ohbj50onRq6ZeHfKae8X-1">
-          <mxGeometry x="0.0282" y="10" relative="1" as="geometry">
-            <mxPoint x="397" y="179" as="sourcePoint" />
-            <Array as="points">
-              <mxPoint x="397" y="179" />
-              <mxPoint x="450" y="179" />
-              <mxPoint x="450" y="222" />
-            </Array>
-            <mxPoint x="404" y="222" as="targetPoint" />
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="ohbj50onRq6ZeHfKae8X-3" value="FMW Monolithic" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="ohbj50onRq6ZeHfKae8X-1">
           <mxGeometry x="350" y="49" width="100" height="351" as="geometry" />
         </mxCell>
