@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-04T08:47:26.711Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36 Edg/97.0.1072.69" etag="pD5X1KyDbUMLZGU58YHI" version="16.4.5" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-02-04T08:51:04.355Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36 Edg/97.0.1072.69" etag="xaMuFxWN7Mu9-kedgU-7" version="16.4.5" type="github" pages="2">
   <diagram id="pQE7_saC5eoKNUFTM6b2" name="Todays model">
     <mxGraphModel dx="782" dy="436" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -149,7 +149,7 @@
         <mxCell id="TvuaENQqSuTaQc80XEJz-2" value="FMW LoginFilter" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="TFP32wIbBXCDq8TEOL0t-1">
           <mxGeometry x="230" y="50" width="100" height="400" as="geometry" />
         </mxCell>
-        <mxCell id="TvuaENQqSuTaQc80XEJz-3" value="Client ADF UI" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="TFP32wIbBXCDq8TEOL0t-1">
+        <mxCell id="TvuaENQqSuTaQc80XEJz-3" value="Client " style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="TFP32wIbBXCDq8TEOL0t-1">
           <mxGeometry x="70" y="20" width="80" height="26" as="geometry" />
         </mxCell>
         <mxCell id="TvuaENQqSuTaQc80XEJz-4" value="FMW Rest" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="TFP32wIbBXCDq8TEOL0t-1">
@@ -213,8 +213,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="TvuaENQqSuTaQc80XEJz-14" value="Request FMW page2&lt;br&gt;+jsessionid cookie" style="html=1;verticalAlign=bottom;startArrow=circle;startFill=1;endArrow=open;startSize=6;endSize=8;rounded=0;" edge="1" parent="TFP32wIbBXCDq8TEOL0t-1">
-          <mxGeometry x="-0.2379" width="80" relative="1" as="geometry">
+        <mxCell id="TvuaENQqSuTaQc80XEJz-14" value="Request FMW page2&lt;br&gt;+jsessionid cookie&lt;br&gt;+token cookie" style="html=1;verticalAlign=bottom;startArrow=circle;startFill=1;endArrow=open;startSize=6;endSize=8;rounded=0;" edge="1" parent="TFP32wIbBXCDq8TEOL0t-1">
+          <mxGeometry x="0.0671" y="7" width="80" relative="1" as="geometry">
             <mxPoint x="108.5" y="327" as="sourcePoint" />
             <mxPoint x="280" y="327" as="targetPoint" />
             <Array as="points">
@@ -256,6 +256,12 @@
             <mxPoint x="514" y="424" as="sourcePoint" />
             <mxPoint x="434" y="424" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="cGvvuwbayzfNES5ui5f0-1" value="ADF UI" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="TFP32wIbBXCDq8TEOL0t-1">
+          <mxGeometry x="30" y="112" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="cGvvuwbayzfNES5ui5f0-2" value="ADF UI" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="TFP32wIbBXCDq8TEOL0t-1">
+          <mxGeometry x="30" y="312" width="80" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
