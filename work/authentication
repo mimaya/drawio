@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-07T03:29:28.804Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36 Edg/97.0.1072.69" etag="GGYmSCT1pAuPJKAOhDn4" version="16.4.5" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-02-07T03:30:15.929Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36 Edg/97.0.1072.69" etag="5Gw2bJVBYHj2I9XxFf9N" version="16.4.5" type="github" pages="5">
   <diagram id="pQE7_saC5eoKNUFTM6b2" name="Todays model">
     <mxGraphModel dx="782" dy="436" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -168,8 +168,8 @@
         </mxCell>
         <mxCell id="ohbj50onRq6ZeHfKae8X-11" value="&amp;nbsp;/rest1+ token (secContext)" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="ohbj50onRq6ZeHfKae8X-7">
           <mxGeometry x="0.3939" y="1" relative="1" as="geometry">
-            <mxPoint x="-70.5" y="279" as="sourcePoint" />
-            <mxPoint x="50" y="279" as="targetPoint" />
+            <mxPoint x="-64" y="282" as="sourcePoint" />
+            <mxPoint x="46" y="282" as="targetPoint" />
             <mxPoint x="1" as="offset" />
           </mxGeometry>
         </mxCell>
@@ -208,7 +208,7 @@
             <mxPoint x="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ohbj50onRq6ZeHfKae8X-15" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="ohbj50onRq6ZeHfKae8X-1">
+        <mxCell id="ohbj50onRq6ZeHfKae8X-15" value="Response" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="ohbj50onRq6ZeHfKae8X-1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="516" y="410" as="sourcePoint" />
             <mxPoint x="401.5" y="410" as="targetPoint" />
