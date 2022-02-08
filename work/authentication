@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-08T06:59:10.045Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36 Edg/98.0.1108.43" etag="P-P32SHO9FOQPaPEljmT" version="16.5.3" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2022-02-08T06:59:51.584Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36 Edg/98.0.1108.43" etag="TTa0ejMp8SzSPnkNaHhR" version="16.5.3" type="github" pages="8">
   <diagram id="pQE7_saC5eoKNUFTM6b2" name="Todays model">
     <mxGraphModel dx="782" dy="436" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -776,7 +776,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="TDgJ6ESpKR-7mj6mj4CK" name="Gateway-orchestration">
+  <diagram id="TDgJ6ESpKR-7mj6mj4CK" name="Orchestration">
     <mxGraphModel dx="782" dy="436" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="w56_OZAI4KL0Fm-4CzTa-0" />
@@ -954,7 +954,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="-s_e3LtzVWoC72BxxF3h" name="Page-8">
+  <diagram id="-s_e3LtzVWoC72BxxF3h" name="Delegate">
     <mxGraphModel dx="782" dy="436" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="9s6U2ENEGIuy6nIPdiC0-0" />
