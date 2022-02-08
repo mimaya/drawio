@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-08T04:08:57.598Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36 Edg/98.0.1108.43" etag="agbf1jxBcHZoWVT58tkN" version="16.5.3" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2022-02-08T04:43:46.511Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36 Edg/98.0.1108.43" etag="qNGc1LnDwZoxE3exrRDY" version="16.5.3" type="github" pages="7">
   <diagram id="pQE7_saC5eoKNUFTM6b2" name="Todays model">
     <mxGraphModel dx="782" dy="436" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -917,6 +917,37 @@
           <mxGeometry x="-0.0158" relative="1" as="geometry">
             <mxPoint x="268" y="280" as="sourcePoint" />
             <mxPoint x="109.5" y="280" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y4cklra1oDri50gBabKH-35" value="&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; TokenService" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="w56_OZAI4KL0Fm-4CzTa-1">
+          <mxGeometry x="645" y="528" width="10" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="Y4cklra1oDri50gBabKH-36" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="w56_OZAI4KL0Fm-4CzTa-1">
+          <mxGeometry x="263" y="518" width="10" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="Y4cklra1oDri50gBabKH-37" value="200 - token" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="w56_OZAI4KL0Fm-4CzTa-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="649.5" y="551" as="sourcePoint" />
+            <mxPoint x="273" y="551" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y4cklra1oDri50gBabKH-38" value="/token+ Authorization-token basic user:pwd" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="w56_OZAI4KL0Fm-4CzTa-1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="109.5" y="518" as="sourcePoint" />
+            <mxPoint x="270" y="518" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y4cklra1oDri50gBabKH-39" value="/token+ Authorization-token basic user:pwd" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="w56_OZAI4KL0Fm-4CzTa-1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="272.5" y="531" as="sourcePoint" />
+            <mxPoint x="649.5" y="531" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y4cklra1oDri50gBabKH-42" value="200 - token + &lt;br&gt;, token cookie" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="w56_OZAI4KL0Fm-4CzTa-1">
+          <mxGeometry x="-0.0158" relative="1" as="geometry">
+            <mxPoint x="268" y="571" as="sourcePoint" />
+            <mxPoint x="109.5" y="571" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
